@@ -1,0 +1,37 @@
+html body { 
+    height: 100vh;
+    margin: 0;
+}
+
+.flexCenter { 
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color: black;
+}
+
+.content {
+    height: 90%;
+    width:85%;
+    background-color: white;
+}
+header {
+    height: 10%;
+    width:20%;
+    border-bottom-style: dashed;
+    border-width: 0.1em; 
+}
+
+main {
+    height: 80%;
+}
+
+footer {
+    height: 10%;
+    width: 20%;
+    border-top-style: dashed;
+    border-width: 0.1em;
+}
