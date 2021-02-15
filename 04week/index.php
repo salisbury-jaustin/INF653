@@ -1,7 +1,7 @@
 <?php 
     include 'database.php';
     // retrieve the todolist
-    $query = 'select * from ToDoItems';
+    $query = 'select * from todoitems';
     $statement = $db->prepare($query);
     $statement->execute();
     $items = $statement->fetchAll();

@@ -1,6 +1,6 @@
 <?php 
     // parameters for php data object
-    $dsn = 'mysql:host=localhost;dbname=ToDoList';
+    $dsn = 'mysql:host=localhost;dbname=todolist';
     $username = 'root';
     $password = '';
     $options = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION); // sets error mode for PDO

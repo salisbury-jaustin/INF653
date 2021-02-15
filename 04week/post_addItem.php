@@ -6,7 +6,7 @@
     if (empty($title) || empty($description)) {
         $errMessage = 'You must provide title and description for your entry!';
     } else {
-        $query = 'insert into ToDoItems
+        $query = 'insert into todoitems 
                     (Title, Description)
                     values
                     (:title, :desc)';

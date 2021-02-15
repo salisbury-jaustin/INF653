@@ -2,7 +2,7 @@
     include 'database.php';
     $index = filter_input(INPUT_POST, 'index', FILTER_SANITIZE_NUMBER_INT);
     $errMessage = null;
-    $query = 'delete from ToDoItems
+    $query = 'delete from todoitems 
                 where ItemNum = :itemNum';
     try {
         $statement = $db->prepare($query);
