@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  min-height: 100vh; }
+
+#toolbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%; }
+
+#todolist {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(0.5rem, auto);
+  max-width: 40%; }
+
+#category_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(0.5rem, auto);
+  max-width: 20%; }
+
+/*# sourceMappingURL=main.css.map */
